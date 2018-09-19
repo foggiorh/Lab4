@@ -16,8 +16,8 @@ Expected Output: {100, 25, 10, 2, 0}
 Test Condition: typical
 
 Test4:
-Input: {a, e, v, y, w}
-Expected Output: input mismatch exception
+Input: {40, 5000, 32, 250, 250}
+Expected Output: {5000, 250, 250, 40, 32}
 Test Condition: exception
 
 Test5:
