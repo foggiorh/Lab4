@@ -9,7 +9,7 @@ Questions about assignment:
 		A) Array is to be sorted in reverse order.
 	4) what should the sort method return? Boolean denoting success or failure,
 		or the sorted array?
-		A) Return the sorted array.
+		A) Return a copy the sorted array, do not modify original array..
 	5) How sohuld the program handle incorrect input?
 		Throw error & exit?
 		Throw error & allow new array as input?
