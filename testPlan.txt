@@ -1,0 +1,28 @@
+TestPlan
+
+Test1:
+Input: {3, 7, 2, 6, 10}
+Expected Output: {10, 7, 6, 3, 2}
+Test Condition: typical
+
+Test2:
+Input {null}
+Expected Output: input mismatch exception, null pointer exception
+Test Condition: exception
+
+Test3:
+Input: {10, 25, 0, 2, 100}
+Expected Output: {100, 25, 10, 2, 0}
+Test Condition: typical
+
+Test4:
+Input: {a, e, v, y, w}
+Expected Output: input mismatch exception
+Test Condition: exception
+
+Test5:
+Input: {}
+Expected Output: error cannot sort empty list
+Test Condition: invalid input
+
+
